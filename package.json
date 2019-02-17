@@ -1,0 +1,28 @@
+{
+  "name": "hello-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragan1810/hello-serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dragan1810/hello-serverless/issues"
+  },
+  "homepage": "https://github.com/Dragan1810/hello-serverless#readme",
+  "dependencies": {
+    "aws-sdk": "^2.404.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "serverless-dynamodb-local": "^0.2.36",
+    "serverless-http": "^1.9.0",
+    "serverless-offline": "^4.4.2"
+  }
+}
